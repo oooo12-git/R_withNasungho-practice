@@ -219,7 +219,7 @@ df %>% arrange(desc(x = 거래금액)) %>% head()
 ### 층, 거래금액으로 내림차순 정렬하고 처음 여섯 행만 출력
 desc() 함수에는 컬럼명을 하나만 지정해야 함!
 ```{r}
-df %>% arrange(desc(x = 층, 거래금액)) %>% head()
+# df %>% arrange(desc(x = 층, 거래금액)) %>% head()
 ```
 층, 거래금액으로 내림차순 정렬하고 처음 여섯 행만 출력
 이번에는 정상적으로 정렬된 것을 확인
@@ -238,7 +238,7 @@ getwd()
 ```
 필요시 data 폴더로 작업 경로 변경
 ```{r}
-setwd(dir = './data')
+#setwd(dir = './data')
 ```
 
 price를 RDS 파일로 저장
